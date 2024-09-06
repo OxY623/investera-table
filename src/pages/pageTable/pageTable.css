@@ -202,3 +202,10 @@ table th:first-child {
   top:0;
   z-index: 100;
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

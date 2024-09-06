@@ -28,7 +28,12 @@ const GenericTable = ({
     }
   }
 
-  if (loading) return <Spin size="large" />
+  if (loading)
+    return (
+      <div className="centered">
+        <Spin size="large" />
+      </div>
+    )
 
   if (error) {
     return (
