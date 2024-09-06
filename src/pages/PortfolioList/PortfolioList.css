@@ -1,0 +1,48 @@
+.portfolio-links {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.portfolio-link {
+  margin-bottom: 10px;
+}
+
+.portfolio-link-text {
+  color: green;
+  text-decoration: none;
+}
+
+.portfolio-link-text:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.portfolio-link-text.disabled {
+  color: grey;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.custom-tab {
+  color: black !important;
+}
+
+.ant-tabs-ink-bar .ant-tabs-ink-bar-animated {
+  background-color: black !important;
+}
+
+.ant-tabs-ink-bar .ant-tabs-ink-bar-animated:active {
+  background-color: black !important;
+}
+
+.ant-tabs-tab .ant-tabs-tab-active {
+  color: black !important;
+}
+
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black !important;
+}
+
+.custom-tabs .ant-tabs-ink-bar {
+  background-color: black !important;
+}
