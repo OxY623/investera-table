@@ -51,7 +51,7 @@ const PortfolioList = () => {
   ]
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div className="main-content" style={{ padding: '20px' }}>
       <h1>Портфели</h1>
       <Tabs
         defaultActiveKey="1"

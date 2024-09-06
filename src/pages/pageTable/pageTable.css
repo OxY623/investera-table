@@ -101,7 +101,7 @@ table {
   background-color: #a19b9b !important;
 }
 
-.ant-table-tbody > tr:nth-child(odd) > td {
+.ant-table-tbody > tr:nth-child(even) > td {
   background-color: rgb(237, 237, 237);
   border-top: 1px solid rgb(219, 219, 219);
   border-bottom: 1px solid rgb(219, 219, 219);
@@ -123,6 +123,7 @@ table {
 .ant-table-body > tr > td:first-child {
   width: 225px !important;
   text-align: left !important;
+
 }
 
 .ant-table-thead > tr > th {
@@ -190,6 +191,7 @@ table td:first-child {
   background-color: #fff;
   z-index: 1;
   text-align: left !important;
+  box-shadow: 10px 0 10px -13px rgba(0, 0, 0, 0.3);
 }
 
 table th:first-child {
