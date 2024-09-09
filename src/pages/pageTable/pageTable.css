@@ -107,14 +107,14 @@ table {
   border-bottom: 1px solid rgb(219, 219, 219);
 }
 
-:where(.css-dev-only-do-not-override-14i19y2).ant-btn-default {
+.ant-btn-default {
   background: #ffffff;
   border-color: #ffffff !important;
   color: rgba(0, 0, 0, 0.88);
   box-shadow: none !important;
 }
 
-:where(.css-dev-only-do-not-override-14i19y2).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
   color: #c2c0c0 !important;
   background: #ffffff;
 }

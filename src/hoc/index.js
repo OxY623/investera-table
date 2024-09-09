@@ -7,6 +7,7 @@ const withData = (
   colorTransform,
   columns,
 ) => {
+  // eslint-disable-next-line react/display-name
   return (props) => {
     const dispatch = useDispatch()
     const rawData = useSelector((state) => state.table)
